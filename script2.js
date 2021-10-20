@@ -4,17 +4,18 @@ var plusBtn = document.querySelector("#increaseText");
 var minusBtn = document.querySelector("#decreaseText");
 
 
-let number = 2;
-plusBtn.addEventListener("click", ()=>{
-
-    outputText.style.fontSize = `${number}px`;
+ let number = 18.72;
+ plusBtn.addEventListener("click", ()=>{
     number += 2;
-
-})
-
-minusBtn.addEventListener("click", ()=>{
-
     outputText.style.fontSize = `${number}px`;
-    number -= 2; 
+    
+    
+
+ })
+
+ minusBtn.addEventListener("click", ()=>{
+    number -= 2;
+    outputText.style.fontSize = `${number}px`;
+    
 }
 )
