@@ -16,7 +16,7 @@ function clickEvent(){
     .then(response => response.json())
     .then(json =>{
         var usefulInput = json.contents.translated;
-         outputText.innerText = usefulInput.toLowerCase();
+         outputText.innerText = usefulInput.toUpperCase();
         
     })
 
