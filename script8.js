@@ -26,4 +26,13 @@ function clickEvent(){
  
 
 }
+
+
+
+// .then(response => {
+//     if(response.status === 401){
+//         console.log("iTS WORKING")
+//     textElement.innerText = response.statusText;
+//    } 
+// })
   
