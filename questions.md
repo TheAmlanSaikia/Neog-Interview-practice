@@ -13,3 +13,11 @@ If you type -
 
 
 Question 10 from interview question to be done,
+
+
+/* 401: https://unitube-server.herokuapp.com/playlists
+404: https://jsonplaceholder.typicode.com/dummyUsers 
+
+
+https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd.json
+ Take user input in USD, see what API contains, convert USD to INR using info from API, display output on screen. */
