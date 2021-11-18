@@ -15,6 +15,8 @@
         
 //         }
 //         )
+
+
 // }
 
 
@@ -43,5 +45,32 @@
 // inputText.addEventListener("input", outputFunction);
 // btnError.addEventListener("click", ()=> mainFunction("red"));
 // btnWarn.addEventListener("click", ()=> mainFunction("yellow"));
-// btnSuccess.addEventListener("click",()=> mainFunction("green"));
+// btnSuccess.addEventListener("click", ()=> mainFunction("green"));
 
+
+
+
+
+
+// var inputText = document.querySelector("#input");
+// var output = document.querySelector("#outputText");
+// var btnGood = document.querySelector("#GoodM");
+// var btnAfter = document.querySelector("#GoodA");
+// var btnNight = document.querySelector("#GoodN");
+// var bodyElement = document.querySelector("body");
+
+// btnGood.addEventListener("click", ()=>{
+//     output.innerText = `${btnGood.innerText}${inputText.value}`;
+//     bodyElement.style.backgroundColor = "red";
+
+// })
+
+// btnAfter.addEventListener("click", ()=>{
+//     output.innerText = `Good AfterNoon, ${inputText.value}`;
+//     bodyElement.style.backgroundColor = "yellow"; 
+// })
+
+// btnNight.addEventListener("click", ()=>{
+//     output.innerText = `Good Night, ${inputText.value}`
+//     bodyElement.style.backgroundColor ="blue"
+// })

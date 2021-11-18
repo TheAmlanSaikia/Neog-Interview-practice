@@ -19,6 +19,7 @@ btnClick.addEventListener("click", ()=> {
     //   outputText.innerText = "Success!!";
     //   }
     
+     console.log(typeof(passwordInput.value));
     
     if( passwordInput.value.length < 5){
         passwordInput.style.borderColor = "red";
